@@ -43,9 +43,12 @@
 **TERMS**
 
 -   Libraries
+    > code of other people that we use in our project
 -   Frameworks
+    > A tool to create a predefined project environment with all libraries pre-installed and configured for our use
 -   API
-    -   SOAP , REST , GraphQl etc
+    -   Types of API
+    -   REST , GraphQl etc
 -   Databases
 -   SDK
 
@@ -60,11 +63,9 @@
     -   Media queries
     -   Mastering flexbox and CSS grids
 -   Modern JavaScript
+    -   Advanced concepts like hoisting, curring etc.
     -   ES6/ES7/ES8
--   Leveling upto SaSS
-    >
--   Leveling upto TypeScript
-    >
+    -   Working of JavaScript
 -   Package managers
     -   npm
     -   yarn
@@ -72,6 +73,10 @@
     -   WebPack
     -   parcel
     -   snowpack
+-   Leveling upto SaSS
+    > Sass is a meta-language on top of CSS that's used to describe the style of a document cleanly and structurally, with more power than flat CSS allows.
+-   Leveling upto TypeScript
+    > TypeScript is a superset of the JavaScript language that has a single open-source compiler
 -   **PROJECT 3a** : Todo List , Calculator
 
 ---
@@ -82,7 +87,7 @@
 -   Static Hosting for websites
 
     -   Github Pages
-        >
+        > GitHub Pages lets you turn GitHub repositories into websites that showcase your projects
     -   Firebase Hosting
     -   Vercel
     -   Netlify
@@ -102,9 +107,9 @@
 
 **What you can learn?**
 
--   Databses : mongo , sql( mysql,postgresSQL),database firebase realtime
--   Backend : nodejs , express , graphql
--   Frontend : reactjs with redux, recoil
+-   Frontend : Reactjs / Angular / Vue / Swelte
+-   Backend : nodejs(with express)/ GoLang
+-   Databses : mongo / sql( mysql,postgresSQL) database / firebase realtime / FaunaDB
 
 **There is more!**
 
@@ -114,5 +119,3 @@
     -   Electron
 -   WebAssembly
     > Going beyond the simple domain
-
-## Project Detailed Description
