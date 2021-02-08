@@ -5,35 +5,35 @@
 ## WEEK1
 
 -   **DAY 1**
-    -   Brushing up Python basics
-    -   Understanding what is machine learning
-    -   artificial intelligence and Datascience
--   **DAY 2** : In-depth learning about supervised, unsupervised,semi-supervised and reinforcement learning
--   **DAY 3** :Learn about EDA(Exploratory Data Analysis) and Data Visualization
--   **DAY 4** : Learn about Data preperation(data cleaning n stuff)
--   **DAY 5** : Statistics for ml
--   **DAY 6** : Statistics for ml
+    -   Brushing up Python basics.
+    -   Understanding what is machine learning.
+    -   Artificial Intelligence and Data Science.
+-   **DAY 2** : In-depth learning about supervised, unsupervised,semi-supervised and reinforcement learning.
+-   **DAY 3** : Learn about EDA (Exploratory Data Analysis) and Data Visualization.
+-   **DAY 4** : Learn about Data Preperation(Data Cleaning and Preprocessing Steps (handling missing values, reducing to appropriate data type etc.))
+-   **DAY 5** : Statistics for ML
+-   **DAY 6** : Statistics for ML
 -   **DAY 7** : Take dataset from here ,https://www.kaggle.com/c/titanic and start analyzing the problem and prepare your data.
 
 ### WEEK2
 
--   **DAY 1** : Learn Linear regression
+-   **DAY 1** : Learn Linear regression.
 -   **DAY 2** : Take dataset from here: https://www.kaggle.com/camnugent/california-housing-prices. Prepare your data and apply linear regression on it.
--   **DAY 3** : Learn lasso and ridge regression and explore other regressors.
--   **DAY 4** : Learn evaluation metrics for regression and apply
--   **DAY 5** : Learn Logistic regression
+-   **DAY 3** : Learn Lasso and Ridge regression and explore other regressors.
+-   **DAY 4** : Learn Evaluation Metrics for Regression and apply.
+-   **DAY 5** : Learn Logistic regression.
 -   **DAY 6** : Apply logistic regression on titanic problem.
 -   **DAY 7** : Learn about various evaluation metrics for classification and apply.
 
 ### WEEK3
 
--   **DAY 1** : Learn about various techniques to improve your model like handling categorical features, handling numerical data ,feature engineering.
--   **DAY 2** : Learn about outliers and outlier handling
--   **DAY 3** : Learn about hyperparameter tuning and apply
--   **DAY 4** : Learn about various techniques to improve your model like handling categorical features, handling numerical data ,feature engineering
--   **DAY 5** : Search for various other techniques to improve the performance
--   **DAY 6** : Learn KNN ,decision tree , naive bayes, k means and apply to see the results
--   **DAY 7** : Learn about ensemble models , boosting algorithms and analyze.
+-   **DAY 1** : Learn about various techniques to improve your model like handling categorical features, handling numerical data ,Feature engineering.
+-   **DAY 2** : Learn about outliers and outlier handling.
+-   **DAY 3** : Learn about hyperparameter tuning and apply.
+-   **DAY 4** : Learn about various techniques to improve your model like handling categorical features, handling numerical data ,feature engineering.
+-   **DAY 5** : Search for various other techniques to improve the performance.
+-   **DAY 6** : Learn KNN ,decision tree , naive bayes, K means and apply to see the results
+-   **DAY 7** : Learn about Ensemble models , Boosting algorithms and analyze.
 
 ### WEEK4
 
