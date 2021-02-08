@@ -1,1 +1,1 @@
-# 30-days-of-dev
+DSC-30-Days-of-Devlopment 💻
