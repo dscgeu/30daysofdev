@@ -23,7 +23,7 @@ $black: #1f1534;
 	text-align: center;
 	text-decoration: none;
 	border-radius: 25rem;
-	font-size: 2rem;
+	font-size: 1rem;
 	padding: 0.7rem 1.4rem;
 }
 .typewriter-text {
@@ -133,8 +133,6 @@ body {
 			font-size: 1.2rem;
 			font-weight: 600;
 			margin-bottom: 1rem;
-			text-transform: uppercase;
-			
 		}
 	}
 	.card:hover {
@@ -163,7 +161,7 @@ section {
 		color: #5a5a5a;
 		margin-top: 2rem;
 	}
-	p{
+	p {
 		margin-top: 1rem;
 		margin-bottom: 1rem;
 	}
@@ -204,4 +202,3 @@ button:hover {
 		max-width: 12.5rem;
 	}
 }
-
