@@ -1,0 +1,200 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,300;0,400;0,600;0,700;0,800;1,400&display=swap");
+
+* {
+	font-family: "Nunito", sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+$green: #0f9d58;
+$blue: #4285f4;
+$yellow: #fbbc04;
+$red: #ea4335;
+$black: #1f1534;
+
+@mixin btn-format {
+	background-color: $blue;
+	outline: none;
+	border: none;
+	color: #fff;
+	text-align: center;
+	text-decoration: none;
+	border-radius: 20rem;
+	font-size: 1rem;
+	padding: 0.7rem 1.4rem;
+}
+.typewriter-text {
+	padding-right: 10px;
+	color: $blue;
+	border-right: solid $blue 7px;
+	text-transform: uppercase;
+	animation: cursor 1s ease-in-out infinite;
+	font-weight: bold;
+}
+@keyframes cursor {
+	from {
+		border-color: $blue;
+	}
+	to {
+		border-color: transparent;
+	}
+}
+
+//Common
+a.apply,
+button.apply {
+	outline: none;
+	cursor: pointer;
+	border: none;
+	color: white;
+	text-align: center;
+	padding: 10px 20px;
+	border-radius: 10px;
+	font-size: 16px;
+	background: $blue;
+}
+
+a {
+	color: #5a5a5a;
+	text-decoration: none;
+}
+
+body {
+	animation: fadeInAnimation ease 2s;
+	animation-iteration-count: 1;
+	animation-fill-mode: forwards;
+}
+
+@keyframes fadeInAnimation {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+body {
+	padding: 3% 10%;
+}
+.top-bar {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 100%;
+	img {
+		height: 4rem;
+	}
+	nav {
+		display: flex;
+		justify-content: space-between;
+	}
+	.nav-link {
+		margin: 0 1rem 0 0;
+	}
+
+	.nav-link:hover {
+		color: $blue;
+		font-weight: 600;
+	}
+}
+
+.head {
+	margin: 7rem 5%;
+	text-align: center;
+	.heading {
+		font-size: 4rem;
+		font-weight: 800;
+		color: #1a1a1a;
+	}
+	.sub-heading {
+		color: #5a5a5a;
+		margin-top: 1rem;
+		font-size: 1.2rem;
+	}
+}
+
+.cards {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	.card {
+		background: #fff;
+		max-width: 12.5rem;
+		padding: 3rem;
+		margin: 1rem;
+		border-radius: 20px;
+		box-shadow: 0px 0px 15px -12px rgba(0, 0, 0, 0.75);
+		.title {
+			color: #1a1a1a;
+			font-size: 1.2rem;
+			font-weight: 600;
+			margin-bottom: 1rem;
+		}
+	}
+	.card:hover {
+		box-shadow: 0px 0px 15px -8px rgba(71, 80, 216, 0.75);
+	}
+}
+
+.footer {
+	width: 100%;
+	span {
+		display: block;
+		width: max-content;
+		margin: 1rem auto 0 auto;
+	}
+}
+section {
+	margin: 5rem 0;
+	.header {
+		h2.bar {
+			border-bottom: solid 2px #1f1534;
+			padding: 10px;
+			width: 25px;
+		}
+	}
+	.main {
+		color: #5a5a5a;
+		margin-top: 2rem;
+	}
+}
+button {
+	@include btn-format;
+	cursor: pointer;
+}
+button:hover {
+	box-shadow: 0px 0px 15px -6px rgba(71, 80, 216, 0.75);
+}
+#register {
+	button {
+		a {
+			color: #fff !important;
+		}
+		margin-top: 1rem;
+	}
+}
+// MEDIA QUERIES
+@media only screen and (max-width: 600px) {
+	.top-bar {
+		flex-direction: column;
+		align-items: flex-start;
+		nav {
+			margin-top: 1rem;
+		}
+	}
+
+	.head {
+		margin: 5rem 5%;
+		.heading {
+			font-size: 3rem !important;
+		}
+	}
+
+	.card {
+		max-width: 12.5rem;
+	}
+}

@@ -4,14 +4,31 @@
 		<meta charset="UTF-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="index.css" />
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+		<script src="./index.js" defer></script>
 		<title>30 Days of Development</title>
 	</head>
 	<body>
-		<div class="logo">
-			<img src="" alt="" />
+		<div class="top-bar">
+			<img src="./assets/dsc_logo.png" class="logo" alt="DSC" />
+			<nav>
+				<a href="#tracks" class="nav-link">Tracks</a>
+				<a href="#register" class="nav-link">Register</a>
+				<a href="#instructions" class="nav-link">Instructions</a>
+			</nav>
 		</div>
 		<div class="head">
-			<div class="heading">30 Days of Development</div>
+			<div class="heading container">
+				<p class="typewriter">
+					30 Days of
+					<span
+						class="typewriter-text"
+						data-text='[ "Development. ", "Web. ", "Mobile. " ]'
+					></span>
+				</p>
+			</div>
+
 			<div class="sub-heading">
 				Lorem ipsum dolor sit amet consectetur adipisicing elit.
 				Deleniti eveniet exercitationem quae eaque sequi porro a aperiam
@@ -20,17 +37,104 @@
 			</div>
 		</div>
 
-		<div class="cards">
-			<a href="">
-				<div class="card">
-					<div class="title">Web Development</div>
-					<div class="desc">
-						Lorem ipsum dolor sit amet consectetur adipisicing elit.
-						Rerum soluta temporibus sunt obcaecati veniam optio
-						repudiandae quae placeat, voluptas distinctio!
-					</div>
+		<div class="cards" id="tracks">
+			<a href="/tracks/web/web.html" class="card">
+				<div class="title">Web Development</div>
+				<div class="desc">
+					Lorem ipsum dolor sit amet consectetur adipisicing elit.
+					Rerum soluta temporibus sunt obcaecati veniam optio
+					repudiandae quae placeat, voluptas distinctio!
 				</div>
 			</a>
+			<a href="/tracks/linux/linux.html" class="card">
+				<div class="title">OS Basics & Linux</div>
+				<div class="desc">
+					Lorem ipsum dolor sit amet consectetur adipisicing elit.
+					Rerum soluta temporibus sunt obcaecati veniam optio
+					repudiandae quae placeat, voluptas distinctio!
+				</div>
+			</a>
+			<a href="/tracks/ml/ml.html" class="card">
+				<div class="title">Machine Learning</div>
+				<div class="desc">
+					Lorem ipsum dolor sit amet consectetur adipisicing elit.
+					Rerum soluta temporibus sunt obcaecati veniam optio
+					repudiandae quae placeat, voluptas distinctio!
+				</div>
+			</a>
+			<a href="/tracks/web/web.html" class="card">
+				<div class="title">Mobile Dev With Flutter</div>
+				<div class="desc">
+					Lorem ipsum dolor sit amet consectetur adipisicing elit.
+					Rerum soluta temporibus sunt obcaecati veniam optio
+					repudiandae quae placeat, voluptas distinctio!
+				</div>
+			</a>
+		</div>
+
+		<!-- REGISTRATION -->
+		<section id="register">
+			<div class="header">
+				<h1>Register Now</h1>
+				<h2 class="bar"></h2>
+			</div>
+			<div class="main">
+				<div class="content">
+					<p>
+						Lorem ipsum dolor, sit amet consectetur adipisicing
+						elit. Ab, assumenda quibusdam voluptates rem illum
+						repellat quis minima velit qui a?
+					</p>
+					<p>
+						Lorem ipsum dolor sit amet consectetur adipisicing elit.
+						Tenetur, earum?
+					</p>
+				</div>
+				<a href="#">
+					<button class="cta">Register Now</button>
+				</a>
+			</div>
+		</section>
+
+		<!-- INSTRUCTIONS -->
+		<section id="instructions">
+			<div class="header">
+				<h1>Instructions</h1>
+				<h2 class="bar"></h2>
+			</div>
+			<div class="main">
+				<p>
+					Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+					Nisi, repellendus? Delectus autem cumque possimus, alias
+					atque rerum temporibus aliquid ab.
+				</p>
+				<ul>
+					<li>
+						Lorem ipsum dolor sit, amet consectetur adipisicing
+						elit. Asperiores consequuntur porro quasi exercitationem
+					</li>
+					<li>
+						Lorem ipsum dolor sit, amet consectetur adipisicing
+						elit. Asperiores consequuntur porro quasi exercitationem
+					</li>
+					<li>
+						Lorem ipsum dolor sit, amet consectetur adipisicing
+						elit. Asperiores consequuntur porro quasi exercitationem
+					</li>
+					<li>
+						Lorem ipsum dolor sit, amet consectetur adipisicing
+						elit. Asperiores consequuntur porro quasi exercitationem
+					</li>
+					<li>
+						Lorem ipsum dolor sit, amet consectetur adipisicing
+						elit. Asperiores consequuntur porro quasi exercitationem
+					</li>
+				</ul>
+			</div>
+		</section>
+
+		<div class="footer">
+			<span>&#169; DSC GEU | 2021</span>
 		</div>
 	</body>
 </html>
