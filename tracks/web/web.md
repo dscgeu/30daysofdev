@@ -77,7 +77,8 @@
     > Sass is a meta-language on top of CSS that's used to describe the style of a document cleanly and structurally, with more power than flat CSS allows.
 -   Leveling upto TypeScript
     > TypeScript is a superset of the JavaScript language that has a single open-source compiler
--   **PROJECT 3a** : Todo List , Calculator
+-   **PROJECT 3a** : Todo List
+-   **PROJECT 3b** : Calculator
 
 ---
 
@@ -108,7 +109,7 @@
 **What you can learn?**
 
 -   Frontend : Reactjs / Angular / Vue / Swelte
--   Backend : nodejs(with express)/ GoLang
+-   Backend : Nodejs(with Express)/ GoLang
 -   Databses : mongo / sql( mysql,postgresSQL) database / firebase realtime / FaunaDB
 
 **There is more!**
@@ -118,4 +119,7 @@
     -   React Native
     -   Electron
 -   WebAssembly
-    > Going beyond the simple domain
+
+> There is much more than this! You will get to see the vast world of web and its superpowers as you dive more into this!
+
+**"** **_LET'S PUT A DENT IN THIS UNIVERSE_** 🤟🏻 **"**
