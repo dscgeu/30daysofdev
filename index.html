@@ -7,6 +7,10 @@
 		<link rel="stylesheet" href="index.css" />
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 		<script src="./index.js" defer></script>
+		<script
+			src="https://kit.fontawesome.com/182801a68f.js"
+			crossorigin="anonymous"
+		></script>
 		<title>30 Days of Development</title>
 	</head>
 	<body>
@@ -14,7 +18,7 @@
 			<img src="./assets/dsc_logo.png" class="logo" alt="DSC" />
 			<nav>
 				<a href="#tracks" class="nav-link">Tracks</a>
-				<a href="#register" class="nav-link">Register</a>
+				<a href="#register" class="nav-link alerts-border">Register</a>
 				<a href="#instructions" class="nav-link">Instructions</a>
 			</nav>
 		</div>
@@ -48,9 +52,18 @@
 		</div>
 
 		<div class="cards" id="tracks">
-			<a href="/tracks/linux/linux.html" class="card">
+			<div class="card">
 				<div class="title">OS Basics & Linux</div>
-				<div class="person">Anant Jakhmola</div>
+				<div class="person">
+					<span>Anant Jakhmola</span>
+					<span
+						class="tooltip-person"
+						flow="right"
+						tooltip="Contact this person in case of any doubts"
+					>
+						<i class="fas fa-info-circle"></i>
+					</span>
+				</div>
 				<div class="desc">
 					The Operating System is a vital component of the system
 					software in a computer system. An Operating System (OS) is a
@@ -61,10 +74,20 @@
 					freely available and is also free to use. Its functionality
 					list is quite similar to that of UNIX!
 				</div>
-			</a>
-			<a href="/tracks/web/web.html" class="card">
+				<a href="/tracks/linux/linux.html"> View Track </a>
+			</div>
+			<div class="card">
 				<div class="title">Web Development</div>
-				<div class="person">Aman Jagdev</div>
+				<div class="person">
+					<span>Aman Jagdev</span>
+					<span
+						class="tooltip-person"
+						flow="right"
+						tooltip="Contact this person in case of any doubts"
+					>
+						<i class="fas fa-info-circle"></i>
+					</span>
+				</div>
 				<div class="desc">
 					Web development refers to building, creating, and
 					maintaining websites. It includes aspects such as web
@@ -75,10 +98,21 @@
 					will be working on advanced libraries for front-end and
 					back-end such as ReactJS, NodeJS, ExpressJS etc...
 				</div>
-			</a>
-			<a href="/tracks/mobile/mobile.html" class="card">
+
+				<a href="/tracks/web/web.html"> View Track </a>
+			</div>
+			<div class="card">
 				<div class="title">Mobile Development</div>
-				<div class="person">Shaswat Joshi</div>
+				<div class="person">
+					<span>Shashwat Joshi</span>
+					<span
+						class="tooltip-person"
+						flow="right"
+						tooltip="Contact this person in case of any doubts"
+					>
+						<i class="fas fa-info-circle"></i>
+					</span>
+				</div>
 				<div class="desc">
 					Flutter is a free and open-source mobile UI framework
 					created by Google and released in May 2017. Flutter is a
@@ -89,10 +123,21 @@
 					differences where they exist while sharing as much code as
 					possible!
 				</div>
-			</a>
-			<a href="/tracks/ml/ml.html" class="card">
+
+				<a href="/tracks/mobile/mobile.html"> View Track </a>
+			</div>
+			<div class="card">
 				<div class="title">Machine Learning</div>
-				<div class="person">Ria Goel</div>
+				<div class="person">
+					<span>Roa Goel</span>
+					<span
+						class="tooltip-person"
+						flow="right"
+						tooltip="Contact this person in case of any doubts"
+					>
+						<i class="fas fa-info-circle"></i>
+					</span>
+				</div>
 				<div class="desc">
 					Machine learning is a method of data analysis that automates
 					analytical model building. It is a branch of artificial
@@ -104,81 +149,117 @@
 					personalised recommendations, banking softwares to detect
 					unusual transactions.
 				</div>
-			</a>
+
+				<a href="/tracks/ml/ml.html"> View Track </a>
+			</div>
 		</div>
 		<!-- REGISTRATION -->
-		<section id="register">
-			<div class="header">
-				<h1>Register Now</h1>
-				<h2 class="bar"></h2>
-			</div>
-			<div class="main">
-				<div class="content">
-					<p>
-						30 Days of Dev. Under this program we have several
-						tracks :
-					</p>
-					<ul>
-						<li>💠 Web Dev</li>
-						<li>💠 Flutter</li>
-						<li>💠 Linux</li>
-						<li>💠 Machine Learning</li>
-					</ul>
-
-					<p>
-						These tracks have been made after an analysis of several
-						factors which will not only horizon the scope of
-						improvement, but also help in broadening your knowledge
-						and your peer group. We highly recommend you to interact
-						with the individuals performing a similar track and
-						support peer to peer learning. Apart from this, as you
-						all know we have technical leads with us who will guide
-						you throughout the track. We have certain rules and
-						eligibility criteria which you will find in the provided
-						google form.
-					</p>
-
-					<p>
-						So, Register now to learn something new and sharpen your
-						skills for bright future!!!
-					</p>
+		<div class="grid">
+			<section id="register">
+				<div class="header">
+					<h1>Register Now</h1>
+					<h2 class="bar"></h2>
 				</div>
-				<a
-					href="https://docs.google.com/forms/d/e/1FAIpQLSfGGCbvH5UcQRpXGkg2VC6qL7pvtw9ibiiiQMZRlNaeZpuCqw/viewform?usp=sf_link"
-					target="_blank"
-				>
-					<button class="cta">Register Now</button>
-				</a>
-			</div>
-		</section>
+				<div class="main">
+					<div class="content">
+						<p>
+							30 Days of Dev. Under this program we have several
+							tracks :
+						</p>
+						<ul>
+							<li>💠 Web Dev</li>
+							<li>💠 Flutter</li>
+							<li>💠 Linux</li>
+							<li>💠 Machine Learning</li>
+						</ul>
 
-		<!-- INSTRUCTIONS -->
-		<section id="instructions">
-			<div class="header">
-				<h1>Instructions</h1>
-				<h2 class="bar"></h2>
-			</div>
-			<div class="main">
-				<ul>
-					<li>Choose your track wisely.</li>
-					<li>
-						Start working within 1 week from the date of
-						announcement. (Else you won't be eligible )
-					</li>
+						<p>
+							These tracks have been made after an analysis of
+							several factors which will not only horizon the
+							scope of improvement, but also help in broadening
+							your knowledge and your peer group. We highly
+							recommend you to interact with the individuals
+							performing a similar track and support peer to peer
+							learning. Apart from this, as you all know we have
+							technical leads with us who will guide you
+							throughout the track. We have certain rules and
+							eligibility criteria which you will find in the
+							provided google form.
+						</p>
 
-					<li>
-						Make a GitHub repository by the name of
-						30DaysOfDevelopment.
-					</li>
-					<p>
-						You can also share your weekly progress on
-						LinkedIn(screenshot of GitHub wall) during the tenure of
-						30 days.
-					</p>
-				</ul>
-			</div>
-		</section>
+						<p>
+							So, Register now to learn something new and sharpen
+							your skills for bright future!!!
+						</p>
+					</div>
+					<a
+						href="https://docs.google.com/forms/d/e/1FAIpQLSfGGCbvH5UcQRpXGkg2VC6qL7pvtw9ibiiiQMZRlNaeZpuCqw/viewform?usp=sf_link"
+						target="_blank"
+					>
+						<button class="cta">Register Now</button>
+					</a>
+				</div>
+			</section>
 
+			<!-- INSTRUCTIONS -->
+			<section id="instructions">
+				<div class="header">
+					<h1>Instructions</h1>
+					<h2 class="bar"></h2>
+				</div>
+				<div class="main">
+					<ul>
+						<li>
+							For all those out there who find the program
+							interesting and are ready to work on this, there are
+							certain eligibility criteria as for you to follow:
+						</li>
+						<li>
+							Firstly, you have to start with filling the
+							Google form. While filling the form remember to be e
+							precise.
+						</li>
+						<li>
+							Next step you have to choose the track. Remember
+							when you are making a choice, you need to mentally
+							prepared that you are ready to devote your 30 days
+							in that domain. So be thoughtful.
+						</li>
+
+						<li>
+							After choosing the right track, you have to make a
+							GitHub Repo by the name of 30daysofdev.
+						</li>
+						<li>
+							When you are done with making the repo, start
+							working on this within the upcoming week latest by
+							16th February. The timeline is to be followed on a
+							serious note.
+						</li>
+						<li>
+							Incase of delay you won't be eligible for this
+							program. Another important thing which you should
+							keep in mind is to update readme files on a daily
+							basis.
+						</li>
+						<li>
+							The readme file should be maintained with proper
+							description of what changes you made on that day.
+						</li>
+						<li>
+							If you are working on a project make sure that all
+							the files should be kept in the above-mentioned
+							repository.
+						</li>
+						<p>
+							You can also share your weekly progress on
+							LinkedIn(screenshot of GitHub wall) during the
+							tenure of 30 days.
+						</p>
+					</ul>
+				</div>
+			</section>
+		</div>
 		<div class="footer">
 			<span>&#169; DSC GEU | 2021</span>
 		</div>
