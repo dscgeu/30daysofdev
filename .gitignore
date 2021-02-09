@@ -12,6 +12,10 @@ firebase-debug.*.log*
 .firebaserc
 firebase.json
 
+# CSS files
+index.css
+index.css.map
+
 # Runtime data
 pids
 *.pid
