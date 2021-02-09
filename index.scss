@@ -120,7 +120,7 @@ body {
 	border-bottom: 0.2rem $blue solid;
 
 	animation: blink 1s;
-	animation-iteration-count: 100;
+	animation-iteration-count: 10000;
 }
 
 @keyframes blink {
